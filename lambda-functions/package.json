@@ -1,0 +1,26 @@
+{
+  "name": "lambda-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "zip": "node zipFiles.js",
+    "buildAndZip": "tsc && node zipFiles.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.687.0",
+    "@aws-sdk/client-lambda": "^3.689.0",
+    "adm-zip": "^0.5.16",
+    "aws-lambda": "^1.0.7"
+  }
+}

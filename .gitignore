@@ -1,0 +1,13 @@
+lambda-functions/zip
+lambda-functions/dist
+terraform/*.tfvars
+react-app/dist
+terraform/terraform.tfstate*
+terraform/.terraform/
+
+*/node_modules
+.DS_Store
+*.log
+*.env
+.idea/
+.vscode/
